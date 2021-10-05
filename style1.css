@@ -132,16 +132,23 @@ nav .menu li a:hover{
 h1{
  line-height: 250px;
  text-align: center;
- text-transform: uppercase;
+ text-transform: capitalize;
  font-weight: bold;
+ text-shadow: -5px -5px 5px grey;
 }
 
 article .newlist .newitem{
-    width: 28%;
-    padding: 2%;
+    width: 29%;
+    
+    padding: 1%;
     float: left;
     border-left: 5px solid gray ;
     margin-right: 4%;
+    
+    box-shadow:  -5px -5px 5px grey;
+    text-size-adjust: 10px;
+    
+    
 
 }
 
@@ -163,4 +170,22 @@ display: block;
 text-align: center;
 }
 
+article .newlist .newitem .content{
+    text-align: left;
+    color: black;
+    background-color: whitesmoke;
+    width: 265px;
+    height: 200px;
+}
+
+article .newlist .newitem .p{
+    width: 265px;
+    height: 200px;
+    color: red
+    ;
+    
+}
+article .newlist .newitem .content .a{
+    color: red;
+}
 
