@@ -19,6 +19,7 @@ footer{
     color: #fff;
 }
 .footer-content{
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,7 +50,7 @@ footer{
 }
 .socials a{
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 .socials a i{
     font-size: 1.1rem;
